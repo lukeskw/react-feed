@@ -3,6 +3,9 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        posts: '256px 1fr', // Define your custom grid here
+      },
       fontFamily: {
         sans: ['Roboto', 'sans-serif'],
       },
