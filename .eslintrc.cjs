@@ -8,6 +8,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['react-refresh'],
   rules: {
+    'no-octal-escape': 'off',
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
